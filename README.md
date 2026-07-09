@@ -84,15 +84,14 @@ The calculator reports:
 
 ## Validation
 
-The calculator was manually validated using **21 actuarial test cases** based on the SOA Standard Ultimate Life Table (SULT).
+The calculator was manually validated using **21 test cases** based on the SOA Standard Ultimate Life Table (SULT).
 
 The validation includes:
 
 - All seven supported products
 - Deferred contracts
 - Non-deferred contracts
-- Reserves before deferral
-- Reserves after deferral
+- Reserves during deferral
 - Reserves during coverage
 
 Each test verifies:
@@ -134,20 +133,32 @@ Benefit:
 Deferral period:
 10
 
+First year commissions:
+0.6
+
+Renewal commissions:
+0.03
+
+Initial expenses:
+500
+
+Renewal expenses:
+50
+
 Reserve time:
-15
+5
 ```
 
 Output
 
 ```
-Actuarial Present Value: $9,258.66
-Level Net Premium: $1,144.09
-Gross Premium: $1,389.22
-Expense Loading: $245.13
-Gross Reserve: $18,931.00
-Net Reserve: $18,931.00
-Expense Reserve: $0.00
+The actuarial present value is $9258.59
+The level net premium is $1144.08
+The gross premium is $1389.21
+The annual expense loading is $245.13
+The gross reserve at time 5 is $5950.38
+The net reserve at time 5 is $6647.23
+The expense reserve at time 5 is $-696.85
 ```
 
 ---
