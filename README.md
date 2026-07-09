@@ -6,9 +6,20 @@ This calculator computes actuarial present values (APVs), level net premiums, gr
 
 ---
 
+## Skills Demonstrated
+
+- Python
+- Financial mathematics
+- Actuarial mathematics
+- Life insurance pricing
+- Prospective reserving
+- Software design
+
+---
+
 ## Features
 
-The calculator currently supports:
+The calculator currently supports pricing and reserving for the following products.
 
 ### Insurance Products
 
@@ -16,6 +27,8 @@ The calculator currently supports:
 - Term Life Insurance
 - Pure Endowment
 - Endowment Insurance
+
+---
 
 ## Assumptions
 
