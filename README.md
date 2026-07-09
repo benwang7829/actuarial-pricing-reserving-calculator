@@ -27,6 +27,9 @@ The calculator currently supports pricing and reserving for the following produc
 - Term Life Insurance
 - Pure Endowment
 - Endowment Insurance
+- Whole Life Annuity
+- Temporary Life Annuity
+- Certain and Life Annuity
 
 ---
 
