@@ -166,10 +166,14 @@ The expense reserve at time 5 is $-696.85
 ## Repository Structure
 
 ```
-Actuarial Calculator/
+actuarial-pricing-reserving-calculator/
 │
-├── actuarial_calculator.py
-├── README.md
+├── .gitignore
+├── interest.py       # Interest and discount factor functions
+├── main.py           # User interface and program execution
+├── mortality.py      # SULT mortality table and survival functions
+├── pricing.py        # Pricing, premium, and reserve calculations
+└── README.md         # Project documentation
 ```
 
 ---
@@ -178,11 +182,10 @@ Actuarial Calculator/
 
 Potential additions include:
 
-- Monthly premium calculations
+- Monthly premium calculations under uniform death distribution (UDD) and constant force of morality
+- Fractional year reserves
 - Continuous insurance benefits
 - Select mortality tables
-- Multiple reserve methods
-- Graphical user interface (GUI)
 - Automated unit tests
 - Modern life insurance contracts
 
